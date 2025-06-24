@@ -17,8 +17,8 @@ def convert_to_csv(txt_path, csv_path):
         writer.writerows(rows)
 
 #  file path
-txt_path = r"C:\Users\wishv\OneDrive\Documents\train_data.txt"
-csv_path = r"C:\Users\wishv\OneDrive\Documents\movies.csv"
+txt_path = r"C:\Users\wishv\OneDrive\Desktop\MOVIE GENRE CLASSIFICATION\train_data.txt"
+csv_path = r"C:\Users\wishv\OneDrive\Desktop\MOVIE GENRE CLASSIFICATION\movies.csv"
 
 convert_to_csv(txt_path, csv_path)
 print("✅ CSV file created at:", csv_path)
