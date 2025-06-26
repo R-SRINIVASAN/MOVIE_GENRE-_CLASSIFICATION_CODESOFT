@@ -10,7 +10,7 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 #  Loading dataset
-csv_path = r"C:\Users\wishv\OneDrive\Desktop\MOVIE GENRE CLASSIFICATION\movies.csv"
+csv_path = r"C:\Users\wishv\OneDrive\Desktop\MY PROJECTS\MOVIE GENRE CLASSIFICATION\movies.csv"
 df = pd.read_csv(csv_path)
 
 #  Drop missing values
